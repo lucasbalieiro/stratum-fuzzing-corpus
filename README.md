@@ -97,6 +97,17 @@ If the corpus reveals a bug in the Stratum implementation:
 - [Stratum V2 Specification](https://github.com/stratum-mining/sv2-spec)
 - [Stratum Protocol Website](https://stratumprotocol.org)
 - [cargo-fuzz Documentation](https://rust-fuzz.github.io/book/cargo-fuzz.html)
+- [Fuzz Coverage Report](https://stratum-mining.github.io/stratum-fuzzing-corpus/)
+
+## 🏆 Trophies
+
+Real bugs discovered by fuzzing this corpus:
+
+- [arithmetic overflows in binary_sv2 #1984](https://github.com/stratum-mining/stratum/issues/1984)
+- [missing boundary checks on decodable proc_macro #1988](https://github.com/stratum-mining/stratum/issues/1988)
+- [arithmetic overflow in noise_sv2::Responder #2103](https://github.com/stratum-mining/stratum/issues/2103)
+- [F32 is not defined in the specs #179](https://github.com/stratum-mining/stratum/issues/179)
+- [some types needs to implement Encodable #2093](https://github.com/stratum-mining/stratum/issues/2093)
 
 ## 💬 Community
 
