@@ -67,6 +67,8 @@ IGNORE_FLAGS=(
     "-ignore-filename-regex=/.*/rustc/.*"
     "-ignore-filename-regex=/.cargo/registry/.*"
     "-ignore-filename-regex=^/(?!${PROJECT_ROOT}).*$"
+    "-ignore-filename-regex=/fuzz/fuzz_targets/.*"
+    "-ignore-filename-regex=\.rustup/.*"
 )
 
 ############################################
