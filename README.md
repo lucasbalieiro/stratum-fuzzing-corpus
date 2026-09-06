@@ -108,6 +108,11 @@ Real bugs discovered by fuzzing this corpus:
 - [arithmetic overflow in noise_sv2::Responder #2103](https://github.com/stratum-mining/stratum/issues/2103)
 - [F32 is not defined in the specs #179](https://github.com/stratum-mining/stratum/issues/179)
 - [some types needs to implement Encodable #2093](https://github.com/stratum-mining/stratum/issues/2093)
+- [panic in `sv1_api::Subscribe::try_from` on malformed `mining.subscribe` #2197](https://github.com/stratum-mining/stratum/issues/2197)
+- [consider moving away from `bitcoin_hashes` #2201](https://github.com/stratum-mining/stratum/issues/2201)
+- [sv1_api crate panics when extranonce is too long #2206](https://github.com/stratum-mining/stratum/issues/2206)
+- [HexBytes::Serialize/Deserialize impls are broken leftovers from Message Generator #2208](https://github.com/stratum-mining/stratum/issues/2208)
+- [unwraps triggered inside client_to_server.rs #2218](https://github.com/stratum-mining/stratum/issues/2218)
 
 ## 💬 Community
 
